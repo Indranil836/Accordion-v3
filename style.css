@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.accordion{
+    margin: 100px auto;
+    width: 600px;
+    height: 600px;
+}
+
+.accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion .accordion-header{
+    cursor: pointer;
+}
+
+.accordion .accordion-item .accordion-header h3{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+}
+
+.accordion .accordion-item .accordion-body{
+    padding: 20px;
+    background-color: white;
+    display: none;
+}
